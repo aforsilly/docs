@@ -35,7 +35,8 @@ only positions 1 and 2 will be filled.
 ## Food Spawn Rules
 
 - The amount of food on a board will be set at the beginning of a game.  
-- An eaten piece of food will not necesarily respawn on the same turn it is eaten, it may take a variable number of turns for that food to reappear.
+- An eaten piece of food will not necesarily respawn on the same turn it is eaten, it may be hidden for a variable number of turns before that food reappears.  Food will be hidden for a maximum number of turns set for that game.  
+    - For example, food may have a 2 turn hidden max.  After a piece of food is eaten, there is a 50% chance the food will appear on the next turn, and a 100% chance that the food will appear on the second turn.  If food has a 3 turn hidden max, it will have a 33.3% chance of appearing on the next turn, a 66.6% chance of appearing on the second turn, and a 100% chance of appearing on the 3rd turn. Etc...
 - You will not know how much food will be on the board before the game, however it is guaranteed that the starting amount of food will be at least 1.
 - Food will spawn at random coordinates that are not currently occupied by a snake*
 
