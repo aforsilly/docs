@@ -75,7 +75,7 @@ Snakes can die in a variety of ways.
 
 ## General Tournament Rules
 - Each team may only enter 1 snake into the tournament.
-- Snakes must be healthy to be entered into a game.  A healthy snake is one that responds to 90% of /ping requests from the start time of the tournament.  Unhealthy snakes get cut from the competition.
+- Snakes should be healthy.  A healthy snake is one that responds to `/ping` requests.
 
 ### Divisions
 - There are three divisions in the battlesnake tournament.  Beginner, Intermediate, Advanced.
